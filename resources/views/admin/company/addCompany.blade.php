@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
 <style>
     form{
-        background: #e3ecfa;
+        background: #ecf2fb;
+        border-radius:5px ;
     }
 </style>
     <title>Add Company</title>

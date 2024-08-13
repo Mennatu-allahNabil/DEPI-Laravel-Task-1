@@ -31,6 +31,6 @@ Route::post("/company/edit",[\App\Http\Controllers\admin\CompanyController::clas
 Route::get("/product/add",[\App\Http\Controllers\admin\ProductController::class,"index"]);
 Route::post("/product/view",[\App\Http\Controllers\admin\ProductController::class,"store"])->name("product_store");
 Route::get("/product/view",[\App\Http\Controllers\admin\ProductController::class,"show"])->name("product_show");
-Route::post("/company/del",[\App\Http\Controllers\admin\ProductController::class,"delProduct"])->name("product_delete");
+Route::post("/product/del",[\App\Http\Controllers\admin\ProductController::class,"delProduct"])->name("product_delete");
 Route::get("/product/update",[\App\Http\Controllers\admin\ProductController::class,"getProduct"])->name("product_get");
 Route::post("/product/edit",[\App\Http\Controllers\admin\ProductController::class,"updateProduct"])->name("product_update");

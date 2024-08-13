@@ -5,11 +5,18 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css')}}">
     <title>Products</title>
+    <style>
+        .container{
+            background-color: #eff4fa;
+            height: 100%;
+        }
+
+    </style>
 </head>
 <body>
-<div class="container">
+<div class="container px-5 py-5 mt-3">
     <h2 class="mx-auto mt-5" style="width: 99%">Products List</h2>
     <table class="table table-hover mt-5">
         <thead>

@@ -33,7 +33,6 @@ class CompanyController extends Controller
     public function delCompany(Request $request)
     {
         $c=Company::find($request->id);
-
         $c->delete();
         return redirect()->route('company_show');
     }

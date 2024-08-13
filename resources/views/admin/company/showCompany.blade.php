@@ -7,9 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <title>Companies</title>
+    <style>
+        .container{
+    background-color: #eff4fa;
+            height: 100%;
+        }
+
+    </style>
 </head>
 <body>
-<div class="container">
+<div class="container px-5 py-5 mt-3">
     <h2 class="mx-auto mt-5" style="width: 99%">Companies List</h2>
     <table class="table table-hover mt-5">
         <thead>
@@ -35,8 +42,6 @@
         @endforeach
         </tbody>
     </table>
-
-{{--    {{$allComps}}--}}
 </div>
 </body>
 </html>
